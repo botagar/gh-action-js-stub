@@ -1,0 +1,12 @@
+name: Imagimaps Services
+description: Build and Deploy Imagimaps Services
+inputs:
+  service_dir:
+    description: Path from the root of the repository to the service directory
+    required: true
+outputs:
+  placeholder:
+    description: 'Placeholder'
+runs:
+  using: node20
+  main: 'index.js'
